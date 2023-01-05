@@ -1,0 +1,8 @@
+# .rubocop.yml
+
+inherit_gem:
+  rubocop-performance:
+    - config/default.yml
+
+AllCops:
+  Enabled: false
