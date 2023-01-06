@@ -1,10 +1,8 @@
-# frozen_string_literal: true
-
 class Person
   attr_accessor :name, :age
   attr_reader :id
 
-  def initialize(age, name = 'Unknown', parent_permission = true)
+  def initialize(age, name = 'Unknown', parent_permission: true)
     @id = generate_id
     @name = name
     @age = age
@@ -12,7 +10,7 @@ class Person
   end
 
   def can_use_services?
-    is_of_age? || @parent_permission
+    of_age? || @parent_permission
   end
 
   private
