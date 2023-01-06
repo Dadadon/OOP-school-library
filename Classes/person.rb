@@ -1,3 +1,5 @@
+require "uuid"
+
 class Person
   attr_accessor :name, :age
   attr_reader :id
@@ -20,6 +22,6 @@ class Person
   end
 
   def generate_id
-    # code to generate a unique ID
+    UUID.generate
   end
 end
