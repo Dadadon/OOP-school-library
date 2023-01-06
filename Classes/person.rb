@@ -1,4 +1,4 @@
-require "uuid"
+require 'uuid'
 
 class Person
   attr_accessor :name, :age
