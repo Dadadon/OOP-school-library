@@ -8,4 +8,4 @@ person = Person.new(22, 'maximilianus')
   capitalizedPerson.correct_name
   capitalizedTrimmedPerson = TrimmerDecorator.new(capitalizedPerson)
   capitalizedTrimmedPerson.correct_name
-  puts capitalizedTrimmedPerson
+  puts person
