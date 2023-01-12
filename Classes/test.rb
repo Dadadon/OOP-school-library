@@ -4,8 +4,8 @@ require_relative 'trimmer_decorator'
 
 person = Person.new(22, 'maximilianus')
 person.correct_name
-capitalized_Person = CapitalizeDecorator.new(person)
-capitalized_Person.correct_name
-capitalized_Trimmed_Person = TrimmerDecorator.new(capitalized_Person)
-capitalized_Trimmed_Person.correct_name
+capitalized_person = CapitalizeDecorator.new(person)
+capitalized_person.correct_name
+capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
+capitalized_trimmed_person.correct_name
 puts person
