@@ -10,8 +10,8 @@ class Person < Nameable
     @id = generate_id
     @name = name
     @age = age
-    @rentals = []
     @parent_permission = parent_permission
+    @rentals = []
     super()
   end
 
