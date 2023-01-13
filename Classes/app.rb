@@ -36,7 +36,7 @@ class App
       name = gets.chomp
       print 'Enter the student\'s age: '
       age = gets.chomp
-      @people.push(Student.new(age,'classroom', name))
+      @people.push(Student.new(age, 'classroom', name))
       puts "#{name.capitalize} was successfully added as a student"
     when 2
       print 'Enter the teacher name: '
@@ -116,7 +116,7 @@ class App
     selected = gets.chomp.to_i
     case selected
     when 1
-       list_books
+      list_books
     when 2
       list_people
     when 3

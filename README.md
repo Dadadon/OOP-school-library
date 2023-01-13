@@ -1,7 +1,10 @@
 # curriculum-databases-projects-template
 
-> In this project, I built a school library app. In this initial step, I implemented the classes to represent students and teachers.
+> In this project, I built a school library app that allows the adding of books, students, teachers and keeps record of students and teachers that rented books
 
+
+Watch the video with the UI example again (you have seen it while reading the Sneak Peek).
+    - [![UI example](https://img.youtube.com/vi/vkkgrhD6aXQ/0.jpg)](https://www.youtube.com/watch?v=vkkgrhD6aXQ)
 <a name="readme-top"></a>
 
 <!--
@@ -83,11 +86,13 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Same funcionality as methods in Enumerable
+> Add Books
+> Add Students
+> Add Teachers
+> Keeps track of rentals
+> ID is generated automatically
 
-- **[#all?]**
-- **[#any?]**
-- **[#filter]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +117,7 @@ Example command:
 
 ### Setup
 
-- Clone the repository with `git clone` https://github.com/Dadadon/Decode-Morse-Message.git;
+- Clone the repository with `git clone` https://github.com/Dadadon/OOP-school-library;
 - Open the cloned folder in your IDE;
 - Install dependencies with `bundle install`;
 - Use the method `decode_morse(the string to decode)` to decode morse code;
@@ -140,9 +145,10 @@ Example command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Delete users]**
+- [ ] **[Edit entries]**
+- [ ] **[Delete books]**
+- [ ] **[Update status of rentals]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
